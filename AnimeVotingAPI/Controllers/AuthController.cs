@@ -1,6 +1,7 @@
 ﻿using AnimeVotingAPI.Data;
 using AnimeVotingAPI.DTOs;
 using AnimeVotingAPI.Models;
+using AnimeVotingAPI.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -13,11 +14,13 @@ public class AuthController : ControllerBase
 {
     private readonly AppDbContext _context;
     private readonly PasswordHasher<User> _passwordHasher;
+    private readonly TokenService _tokenService;
 
-    public AuthController(AppDbContext context)
+    public AuthController(AppDbContext context, IPasswordHasher<User> passwordHasher, TokenService tokenService)
     {
         _context = context;
         _passwordHasher = new PasswordHasher<User>();
+        _tokenService = tokenService;
     }
 
     [HttpPost("register")]
@@ -54,8 +57,19 @@ public class AuthController : ControllerBase
         if (result == PasswordVerificationResult.Failed)
             return Unauthorized("Invalid username or password.");
 
-        //JWT will be added later
-        return Ok(new { message = "Login successful", userId = user.ID, username = user.Username });
-
+        //JWT 
+        var token = _tokenService.CreateToken(user);
+        //Return token and basic info
+        return Ok(new
+        {
+            message = "Login successful",
+            token,
+            user = new
+            {
+                userId = user.ID,
+                username = user.Username,
+                role = user.Role
+            }
+        });
     }
 }

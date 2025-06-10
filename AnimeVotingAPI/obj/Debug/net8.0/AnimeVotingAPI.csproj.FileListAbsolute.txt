@@ -140,3 +140,4 @@ C:\dotnet\AnimeVoter\AnimeVoting\AnimeVotingAPI\obj\Debug\net8.0\refint\AnimeVot
 C:\dotnet\AnimeVoter\AnimeVoting\AnimeVotingAPI\obj\Debug\net8.0\AnimeVotingAPI.pdb
 C:\dotnet\AnimeVoter\AnimeVoting\AnimeVotingAPI\obj\Debug\net8.0\AnimeVotingAPI.genruntimeconfig.cache
 C:\dotnet\AnimeVoter\AnimeVoting\AnimeVotingAPI\obj\Debug\net8.0\ref\AnimeVotingAPI.dll
+C:\dotnet\AnimeVoter\AnimeVoting\AnimeVotingAPI\obj\Debug\net8.0\AnimeVotingAPI.sourcelink.json
