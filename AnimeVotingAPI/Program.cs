@@ -54,6 +54,8 @@ builder.Services.AddSwaggerGen(c =>
 //Custom Services
 builder.Services.AddScoped<IPasswordHasher<User>, PasswordHasher<User>>();
 builder.Services.AddScoped<TokenService>();
+builder.Services.AddHttpClient<IJikanService, JikanService>();
+
 
 //JWT Config
 var jwtSettings = builder.Configuration.GetSection("JwtSettings");
