@@ -19,6 +19,31 @@ builder.Services.AddDbContext<AppDbContext>(options  =>
 
 //Controllers & Swagger
 builder.Services.AddControllers();
+// Add CORS for React
+builder.Services.AddCors(options =>
+{
+    // Your production-ready policy
+    options.AddPolicy("AllowReactApp", policy =>
+    {
+        policy
+            .WithOrigins(
+                "http://localhost:3000",
+                "http://localhost:3001",
+                "https://localhost:3000",
+                "https://localhost:3001",
+                "https://localhost:7015",  // Added your API URL
+                "http://localhost:7015",   // Added HTTP version too
+                "https://www.google.com", // Temporarily for testing
+                "https://google.com"      // Temporarily for testing
+            )
+            .AllowAnyMethod()
+            .AllowAnyHeader()
+            .AllowCredentials()
+            .SetPreflightMaxAge(TimeSpan.FromMinutes(5)); // Cache preflight for 5 minutes
+    });
+});
+
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
@@ -97,6 +122,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseCors("DebugPolicy");
 app.UseAuthentication();
 
 app.UseAuthorization();

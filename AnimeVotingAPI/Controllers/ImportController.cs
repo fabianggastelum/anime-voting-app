@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 namespace AnimeVotingAPI.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class ImportController : ControllerBase
     {
         private readonly IJikanService _jikanService;

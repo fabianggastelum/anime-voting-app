@@ -10,7 +10,7 @@ namespace AnimeVotingAPI.Controllers
 {
     [Authorize]
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class VotesController : ControllerBase
     {
         private readonly AppDbContext _context;
