@@ -2,17 +2,17 @@
 export const API_BASE_URL = "https://localhost:7015/api";
 
 // API Endpoints
-export const API_ENDPOITS = {
+export const API_ENDPOINTS = {
   // Authentication
-  LOGIN: "/api/Auth/login",
-  REGISTER: "/api/Auth/register",
+  LOGIN: "/Auth/login",
+  REGISTER: "/Auth/register",
 
   // Characters
-  RANDOM_PAIR: "/api/Characters/pair",
-  LEADERBOARD: "/apiCharacters/leaderboard",
+  RANDOM_PAIR: "/Characters/pair",
+  LEADERBOARD: "/Characters/leaderboard",
 
   // Voting
-  VOTE: "/api/Votes", // Will append /{winnerId}
+  VOTE: "/Votes", // Will append /{winnerId}
 };
 
 // Local Storage Keys

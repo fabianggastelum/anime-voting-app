@@ -122,7 +122,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseCors("DebugPolicy");
+app.UseCors("AllowReactApp");
 app.UseAuthentication();
 
 app.UseAuthorization();

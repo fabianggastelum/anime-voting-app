@@ -17,11 +17,19 @@ export const removeToken = () => {
 // User Management
 export const getUser = () => {
   const userStr = localStorage.getItem(STORAGE_KEYS.USER);
-  return userStr ? JSON.parse(userStr) : null;
+  if (!userStr || userStr === "undefined" || userStr === "null") {
+    return null;
+  }
+  try {
+    return JSON.parse(userStr);
+  } catch (error) {
+    console.error("Error parsing user data:", error);
+    return null;
+  }
 };
 
 export const setUser = (user) => {
-  localStorage.setItems(STORAGE_KEYS.USER, JSON.stringify(user));
+  localStorage.setItem(STORAGE_KEYS.USER, JSON.stringify(user));
 };
 
 // Token Validation

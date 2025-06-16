@@ -1,5 +1,5 @@
 import axios from "axios";
-import { API_BASE_URL, API_ENDPOITS } from "../utils/constants";
+import { API_BASE_URL, API_ENDPOINTS } from "../utils/constants";
 import { getAuthHeaders, logout } from "../utils/auth";
 import { getByLabelText } from "@testing-library/dom";
 
