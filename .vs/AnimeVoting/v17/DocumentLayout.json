@@ -3,6 +3,70 @@
   "WorkspaceRootPath": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|c:\\dotnet\\animevoter\\animevoting\\animevotingapi\\controllers\\characterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|solutionrelative:animevotingapi\\controllers\\characterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|c:\\dotnet\\animevoter\\animevoting\\animevotingapi\\dtos\\characterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|solutionrelative:animevotingapi\\dtos\\characterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|c:\\dotnet\\animevoter\\animevoting\\animevotingapi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|solutionrelative:animevotingapi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|c:\\dotnet\\animevoter\\animevoting\\animevotingapi\\models\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|solutionrelative:animevotingapi\\models\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|c:\\dotnet\\animevoter\\animevoting\\animevotingapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|solutionrelative:animevotingapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|c:\\dotnet\\animevoter\\animevoting\\animevotingapi\\models\\external\\jikancharacterwrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|solutionrelative:animevotingapi\\models\\external\\jikancharacterwrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|c:\\dotnet\\animevoter\\animevoting\\animevotingapi\\models\\external\\jikancharacterimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|solutionrelative:animevotingapi\\models\\external\\jikancharacterimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|c:\\dotnet\\animevoter\\animevoting\\animevotingapi\\models\\external\\jikanimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|solutionrelative:animevotingapi\\models\\external\\jikanimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|c:\\dotnet\\animevoter\\animevoting\\animevotingapi\\models\\vote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|solutionrelative:animevotingapi\\models\\vote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|c:\\dotnet\\animevoter\\animevoting\\animevotingapi\\models\\external\\jikancharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|solutionrelative:animevotingapi\\models\\external\\jikancharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|c:\\dotnet\\animevoter\\animevoting\\animevotingapi\\services\\ijikanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|solutionrelative:animevotingapi\\services\\ijikanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|c:\\dotnet\\animevoter\\animevoting\\animevotingapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|solutionrelative:animevotingapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|c:\\dotnet\\animevoter\\animevoting\\animevotingapi\\middleware\\adminauthorizationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|solutionrelative:animevotingapi\\middleware\\adminauthorizationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|c:\\dotnet\\animevoter\\animevoting\\animevotingapi\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|solutionrelative:animevotingapi\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|c:\\dotnet\\animevoter\\animevoting\\animevotingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|solutionrelative:animevotingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|c:\\dotnet\\animevoter\\animevoting\\animevotingapi\\middleware\\roleauthorizationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|solutionrelative:animevotingapi\\middleware\\roleauthorizationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|c:\\dotnet\\animevoter\\animevoting\\animevotingapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|solutionrelative:animevotingapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -15,36 +79,12 @@
       "RelativeMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|solutionrelative:animevotingapi\\controllers\\votescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|c:\\dotnet\\animevoter\\animevoting\\animevotingapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|solutionrelative:animevotingapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|c:\\dotnet\\animevoter\\animevoting\\animevotingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|solutionrelative:animevotingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|c:\\dotnet\\animevoter\\animevoting\\animevotingapi\\controllers\\securecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|solutionrelative:animevotingapi\\controllers\\securecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|c:\\dotnet\\animevoter\\animevoting\\animevotingapi\\controllers\\characterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|solutionrelative:animevotingapi\\controllers\\characterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|c:\\dotnet\\animevoter\\animevoting\\animevotingapi\\controllers\\importcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|solutionrelative:animevotingapi\\controllers\\importcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|c:\\dotnet\\animevoter\\animevoting\\animevotingapi\\models\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|solutionrelative:animevotingapi\\models\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|c:\\dotnet\\animevoter\\animevoting\\animevotingapi\\models\\vote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|solutionrelative:animevotingapi\\models\\vote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|c:\\dotnet\\animevoter\\animevoting\\animevotingapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|solutionrelative:animevotingapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|c:\\dotnet\\animevoter\\animevoting\\animevotingapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,44 +95,16 @@
       "RelativeMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|solutionrelative:animevotingapi\\dtos\\votedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|c:\\dotnet\\animevoter\\animevoting\\animevotingapi\\dtos\\characterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|solutionrelative:animevotingapi\\dtos\\characterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|c:\\dotnet\\animevoter\\animevoting\\animevotingapi\\models\\external\\jikancharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|solutionrelative:animevotingapi\\models\\external\\jikancharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|c:\\dotnet\\animevoter\\animevoting\\animevotingapi\\services\\jikanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|solutionrelative:animevotingapi\\services\\jikanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|c:\\dotnet\\animevoter\\animevoting\\animevotingapi\\models\\external\\jikancharacterwrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|solutionrelative:animevotingapi\\models\\external\\jikancharacterwrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|c:\\dotnet\\animevoter\\animevoting\\animevotingapi\\services\\ijikanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|solutionrelative:animevotingapi\\services\\ijikanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|c:\\dotnet\\animevoter\\animevoting\\animevotingapi\\models\\external\\jikanapiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|solutionrelative:animevotingapi\\models\\external\\jikanapiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|c:\\dotnet\\animevoter\\animevoting\\animevotingapi\\models\\external\\jikanimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|solutionrelative:animevotingapi\\models\\external\\jikanimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|c:\\dotnet\\animevoter\\animevoting\\animevotingapi\\models\\external\\jikancharacterimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|solutionrelative:animevotingapi\\models\\external\\jikancharacterimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|c:\\dotnet\\animevoter\\animevoting\\animevotingapi\\dtos\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|solutionrelative:animevotingapi\\dtos\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|c:\\dotnet\\animevoter\\animevoting\\animevotingapi\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|solutionrelative:animevotingapi\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1D6BD181-1EB6-4753-BF95-A6DE0A944B95}|AnimeVotingAPI\\AnimeVotingAPI.csproj|c:\\dotnet\\animevoter\\animevoting\\animevotingapi\\dtos\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -106,11 +118,180 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "AnimeVotingAPI\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "AnimeVotingAPI\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T20:51:59.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "AnimeVotingAPI\\Models\\User.cs",
+              "ToolTip": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Models\\User.cs",
+              "RelativeToolTip": "AnimeVotingAPI\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T01:17:13.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IJikanService.cs",
+              "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Services\\IJikanService.cs",
+              "RelativeDocumentMoniker": "AnimeVotingAPI\\Services\\IJikanService.cs",
+              "ToolTip": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Services\\IJikanService.cs",
+              "RelativeToolTip": "AnimeVotingAPI\\Services\\IJikanService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T22:04:34.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "JikanCharacter.cs",
+              "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Models\\External\\JikanCharacter.cs",
+              "RelativeDocumentMoniker": "AnimeVotingAPI\\Models\\External\\JikanCharacter.cs",
+              "ToolTip": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Models\\External\\JikanCharacter.cs",
+              "RelativeToolTip": "AnimeVotingAPI\\Models\\External\\JikanCharacter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T20:22:43.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Character.cs",
+              "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Models\\Character.cs",
+              "RelativeDocumentMoniker": "AnimeVotingAPI\\Models\\Character.cs",
+              "ToolTip": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Models\\Character.cs",
+              "RelativeToolTip": "AnimeVotingAPI\\Models\\Character.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T01:26:34.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JikanImages.cs",
+              "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Models\\External\\JikanImages.cs",
+              "RelativeDocumentMoniker": "AnimeVotingAPI\\Models\\External\\JikanImages.cs",
+              "ToolTip": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Models\\External\\JikanImages.cs",
+              "RelativeToolTip": "AnimeVotingAPI\\Models\\External\\JikanImages.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T21:05:33.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Vote.cs",
+              "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Models\\Vote.cs",
+              "RelativeDocumentMoniker": "AnimeVotingAPI\\Models\\Vote.cs",
+              "ToolTip": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Models\\Vote.cs",
+              "RelativeToolTip": "AnimeVotingAPI\\Models\\Vote.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T01:29:49.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JikanCharacterImage.cs",
+              "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Models\\External\\JikanCharacterImage.cs",
+              "RelativeDocumentMoniker": "AnimeVotingAPI\\Models\\External\\JikanCharacterImage.cs",
+              "ToolTip": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Models\\External\\JikanCharacterImage.cs",
+              "RelativeToolTip": "AnimeVotingAPI\\Models\\External\\JikanCharacterImage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T20:47:37.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JikanCharacterWrapper.cs",
+              "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Models\\External\\JikanCharacterWrapper.cs",
+              "RelativeDocumentMoniker": "AnimeVotingAPI\\Models\\External\\JikanCharacterWrapper.cs",
+              "ToolTip": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Models\\External\\JikanCharacterWrapper.cs",
+              "RelativeToolTip": "AnimeVotingAPI\\Models\\External\\JikanCharacterWrapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T23:39:59.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CharacterDto.cs",
+              "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\DTOs\\CharacterDto.cs",
+              "RelativeDocumentMoniker": "AnimeVotingAPI\\DTOs\\CharacterDto.cs",
+              "ToolTip": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\DTOs\\CharacterDto.cs",
+              "RelativeToolTip": "AnimeVotingAPI\\DTOs\\CharacterDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T00:08:35.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CharactersController.cs",
+              "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Controllers\\CharactersController.cs",
+              "RelativeDocumentMoniker": "AnimeVotingAPI\\Controllers\\CharactersController.cs",
+              "ToolTip": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Controllers\\CharactersController.cs",
+              "RelativeToolTip": "AnimeVotingAPI\\Controllers\\CharactersController.cs",
+              "ViewState": "AQIAAG0AAAAAAAAAAIAwwHAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T18:42:37.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RoleAuthorizationMiddleware.cs",
+              "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Middleware\\RoleAuthorizationMiddleware.cs",
+              "RelativeDocumentMoniker": "AnimeVotingAPI\\Middleware\\RoleAuthorizationMiddleware.cs",
+              "ToolTip": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Middleware\\RoleAuthorizationMiddleware.cs",
+              "RelativeToolTip": "AnimeVotingAPI\\Middleware\\RoleAuthorizationMiddleware.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T20:48:12.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "AnimeVotingAPI\\Services\\TokenService.cs",
+              "ToolTip": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Services\\TokenService.cs",
+              "RelativeToolTip": "AnimeVotingAPI\\Services\\TokenService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T18:08:19.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "AnimeVotingAPI\\Properties\\launchSettings.json",
@@ -123,32 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VotesController.cs",
-              "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Controllers\\VotesController.cs",
-              "RelativeDocumentMoniker": "AnimeVotingAPI\\Controllers\\VotesController.cs",
-              "ToolTip": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Controllers\\VotesController.cs",
-              "RelativeToolTip": "AnimeVotingAPI\\Controllers\\VotesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T23:33:57.53Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ImportController.cs",
-              "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Controllers\\ImportController.cs",
-              "RelativeDocumentMoniker": "AnimeVotingAPI\\Controllers\\ImportController.cs",
-              "ToolTip": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Controllers\\ImportController.cs",
-              "RelativeToolTip": "AnimeVotingAPI\\Controllers\\ImportController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T22:27:11.259Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "RegisterUserDto.cs",
               "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\DTOs\\RegisterUserDto.cs",
               "RelativeDocumentMoniker": "AnimeVotingAPI\\DTOs\\RegisterUserDto.cs",
@@ -160,19 +316,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Vote.cs",
-              "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Models\\Vote.cs",
-              "RelativeDocumentMoniker": "AnimeVotingAPI\\Models\\Vote.cs",
-              "ToolTip": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Models\\Vote.cs",
-              "RelativeToolTip": "AnimeVotingAPI\\Models\\Vote.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "DocumentIndex": 12,
+              "Title": "AdminAuthorizationMiddleware.cs",
+              "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Middleware\\AdminAuthorizationMiddleware.cs",
+              "RelativeDocumentMoniker": "AnimeVotingAPI\\Middleware\\AdminAuthorizationMiddleware.cs",
+              "ToolTip": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Middleware\\AdminAuthorizationMiddleware.cs",
+              "RelativeToolTip": "AnimeVotingAPI\\Middleware\\AdminAuthorizationMiddleware.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAASwB8AAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T01:29:49.901Z"
+              "WhenOpened": "2025-06-17T21:01:52.879Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AnimeVotingAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AnimeVotingAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAIAwwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T02:32:21.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Program.cs",
+              "RelativeDocumentMoniker": "AnimeVotingAPI\\Program.cs",
+              "ToolTip": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Program.cs",
+              "RelativeToolTip": "AnimeVotingAPI\\Program.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAawH8AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T00:49:24.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "AnimeVotingAPI\\Data\\AppDbContext.cs",
@@ -184,45 +367,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Character.cs",
-              "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Models\\Character.cs",
-              "RelativeDocumentMoniker": "AnimeVotingAPI\\Models\\Character.cs",
-              "ToolTip": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Models\\Character.cs",
-              "RelativeToolTip": "AnimeVotingAPI\\Models\\Character.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 20,
+              "Title": "ImportController.cs",
+              "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Controllers\\ImportController.cs",
+              "RelativeDocumentMoniker": "AnimeVotingAPI\\Controllers\\ImportController.cs",
+              "ToolTip": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Controllers\\ImportController.cs",
+              "RelativeToolTip": "AnimeVotingAPI\\Controllers\\ImportController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T01:26:34.706Z"
+              "WhenOpened": "2025-06-11T22:27:11.259Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Program.cs",
-              "RelativeDocumentMoniker": "AnimeVotingAPI\\Program.cs",
-              "ToolTip": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Program.cs",
-              "RelativeToolTip": "AnimeVotingAPI\\Program.cs",
-              "ViewState": "AQIAAF8AAAAAAAAAAAAawHwAAAAaAAAA",
+              "DocumentIndex": 18,
+              "Title": "VotesController.cs",
+              "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Controllers\\VotesController.cs",
+              "RelativeDocumentMoniker": "AnimeVotingAPI\\Controllers\\VotesController.cs",
+              "ToolTip": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Controllers\\VotesController.cs",
+              "RelativeToolTip": "AnimeVotingAPI\\Controllers\\VotesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T00:49:24.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-12T23:33:57.53Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "AnimeVotingAPI\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "AnimeVotingAPI\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEgAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T02:32:21.443Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 19,
               "Title": "Securecontroller.cs",
               "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Controllers\\Securecontroller.cs",
               "RelativeDocumentMoniker": "AnimeVotingAPI\\Controllers\\Securecontroller.cs",
@@ -234,31 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "JikanCharacter.cs",
-              "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Models\\External\\JikanCharacter.cs",
-              "RelativeDocumentMoniker": "AnimeVotingAPI\\Models\\External\\JikanCharacter.cs",
-              "ToolTip": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Models\\External\\JikanCharacter.cs",
-              "RelativeToolTip": "AnimeVotingAPI\\Models\\External\\JikanCharacter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T20:22:43.746Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Models\\User.cs",
-              "RelativeDocumentMoniker": "AnimeVotingAPI\\Models\\User.cs",
-              "ToolTip": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Models\\User.cs",
-              "RelativeToolTip": "AnimeVotingAPI\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T01:17:13.534Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "LoginUserDto.cs",
               "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\DTOs\\LoginUserDto.cs",
               "RelativeDocumentMoniker": "AnimeVotingAPI\\DTOs\\LoginUserDto.cs",
@@ -270,19 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CharacterDto.cs",
-              "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\DTOs\\CharacterDto.cs",
-              "RelativeDocumentMoniker": "AnimeVotingAPI\\DTOs\\CharacterDto.cs",
-              "ToolTip": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\DTOs\\CharacterDto.cs",
-              "RelativeToolTip": "AnimeVotingAPI\\DTOs\\CharacterDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T00:08:35.646Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 17,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\appsettings.json",
               "RelativeDocumentMoniker": "AnimeVotingAPI\\appsettings.json",
@@ -290,24 +423,11 @@
               "RelativeToolTip": "AnimeVotingAPI\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-10T01:57:31.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T01:57:31.22Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CharactersController.cs",
-              "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Controllers\\CharactersController.cs",
-              "RelativeDocumentMoniker": "AnimeVotingAPI\\Controllers\\CharactersController.cs",
-              "ToolTip": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Controllers\\CharactersController.cs",
-              "RelativeToolTip": "AnimeVotingAPI\\Controllers\\CharactersController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T18:42:37.02Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 22,
               "Title": "VoteDto.cs",
               "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\DTOs\\VoteDto.cs",
               "RelativeDocumentMoniker": "AnimeVotingAPI\\DTOs\\VoteDto.cs",
@@ -319,43 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Services\\TokenService.cs",
-              "RelativeDocumentMoniker": "AnimeVotingAPI\\Services\\TokenService.cs",
-              "ToolTip": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Services\\TokenService.cs",
-              "RelativeToolTip": "AnimeVotingAPI\\Services\\TokenService.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBAAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T18:08:19.533Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IJikanService.cs",
-              "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Services\\IJikanService.cs",
-              "RelativeDocumentMoniker": "AnimeVotingAPI\\Services\\IJikanService.cs",
-              "ToolTip": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Services\\IJikanService.cs",
-              "RelativeToolTip": "AnimeVotingAPI\\Services\\IJikanService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T22:04:34.9Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "JikanCharacterWrapper.cs",
-              "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Models\\External\\JikanCharacterWrapper.cs",
-              "RelativeDocumentMoniker": "AnimeVotingAPI\\Models\\External\\JikanCharacterWrapper.cs",
-              "ToolTip": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Models\\External\\JikanCharacterWrapper.cs",
-              "RelativeToolTip": "AnimeVotingAPI\\Models\\External\\JikanCharacterWrapper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T23:39:59.669Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "JikanApiResponse.cs",
               "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Models\\External\\JikanApiResponse.cs",
               "RelativeDocumentMoniker": "AnimeVotingAPI\\Models\\External\\JikanApiResponse.cs",
@@ -367,7 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 23,
               "Title": "JikanService.cs",
               "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Services\\JikanService.cs",
               "RelativeDocumentMoniker": "AnimeVotingAPI\\Services\\JikanService.cs",
@@ -376,30 +460,6 @@
               "ViewState": "AQIAAAwAAAAAAAAAAAAqwCUAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-11T21:15:40.97Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "JikanCharacterImage.cs",
-              "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Models\\External\\JikanCharacterImage.cs",
-              "RelativeDocumentMoniker": "AnimeVotingAPI\\Models\\External\\JikanCharacterImage.cs",
-              "ToolTip": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Models\\External\\JikanCharacterImage.cs",
-              "RelativeToolTip": "AnimeVotingAPI\\Models\\External\\JikanCharacterImage.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T20:47:37.107Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "JikanImages.cs",
-              "DocumentMoniker": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Models\\External\\JikanImages.cs",
-              "RelativeDocumentMoniker": "AnimeVotingAPI\\Models\\External\\JikanImages.cs",
-              "ToolTip": "C:\\dotnet\\AnimeVoter\\AnimeVoting\\AnimeVotingAPI\\Models\\External\\JikanImages.cs",
-              "RelativeToolTip": "AnimeVotingAPI\\Models\\External\\JikanImages.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T21:05:33.999Z"
             }
           ]
         }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AnimeVotingAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82b3aec472ac323a3f9234624ca7d327a472b6b3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cfbde540ee7b76697c5b0d62ccdf1bba208bfb6e")]
 [assembly: System.Reflection.AssemblyProductAttribute("AnimeVotingAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AnimeVotingAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,6 +3,7 @@ using AnimeVotingAPI.DTOs;
 using AnimeVotingAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
 
 namespace AnimeVotingAPI.Controllers
 {
@@ -109,6 +110,7 @@ namespace AnimeVotingAPI.Controllers
             // Return the Leaderboard
             return Ok(characterDtos);
         }
+
 
     }
 }

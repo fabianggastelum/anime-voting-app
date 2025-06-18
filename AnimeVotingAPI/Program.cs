@@ -1,4 +1,5 @@
 using AnimeVotingAPI.Data;
+using AnimeVotingAPI.Middleware;
 using AnimeVotingAPI.Models;
 using AnimeVotingAPI.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -124,6 +125,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseCors("AllowReactApp");
 app.UseAuthentication();
+app.UseMiddleware<AdminAuthorizationMiddleware>();
 
 app.UseAuthorization();
 
