@@ -13,6 +13,11 @@ import Register from "./components/Auth/Register";
 import VotingPair from "./components/Voting/VotingPair";
 import Leaderboard from "./components/Leaderboard/Leaderboard";
 import "./styles/globals.css";
+import Unauthorized from "./components/Auth/Unauthorized";
+import ProtectedAdminRoute from "./components/Auth/ProtectedAdminRoute";
+import AdminDashboard from "./components/Admin/AdminDashboard";
+import UserManagement from "./components/Admin/UserManagement";
+import CharacterManagement from "./components/Admin/CharacterManagement";
 
 function App() {
   return (
@@ -47,6 +52,35 @@ function App() {
 
               {/* Default redirect */}
               <Route path="/" element={<Navigate to="/vote" replace />} />
+
+              {/* Admin Routes */}
+              <Route
+                path="/admin"
+                element={
+                  <ProtectedAdminRoute>
+                    <AdminDashboard />
+                  </ProtectedAdminRoute>
+                }
+              />
+              <Route
+                path="/admin/users"
+                element={
+                  <ProtectedAdminRoute>
+                    <UserManagement />
+                  </ProtectedAdminRoute>
+                }
+              />
+
+              <Route
+                path="/admin/characters"
+                element={
+                  <ProtectedAdminRoute>
+                    <CharacterManagement />
+                  </ProtectedAdminRoute>
+                }
+              />
+
+              <Route path="/unauthorized" element={<Unauthorized />} />
 
               {/* Catch all - redirect to home */}
               <Route path="*" element={<Navigate to="/" replace />} />
