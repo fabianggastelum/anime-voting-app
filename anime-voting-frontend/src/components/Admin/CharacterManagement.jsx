@@ -25,6 +25,19 @@ const CharacterManagement = () => {
   // Success message state
   const [successMessage, setSuccessMessage] = useState("");
 
+  // Pagination state
+  const [currentPage, setCurrentPage] = useState(1);
+  const [charactersPerPage] = useState(10);
+
+  // Search state
+  const [searchTerm, setSearchTerm] = useState("");
+  const [searchType, setSearchType] = useState("character"); // "character" or "anime"
+
+  // Debug logging
+  const debugLog = (message, data = null) => {
+    console.log(`[CharacterManagement] ${message}`, data);
+  };
+
   // Fetch all characters when component mounts
   useEffect(() => {
     fetchCharacters();
@@ -41,13 +54,68 @@ const CharacterManagement = () => {
   }, [successMessage]);
 
   // Debug state changes
-  useEffect(() => {}, [showDeleteDialog, selectedCharacter]);
+  useEffect(() => {
+    console.log("showDeleteDialog changed:", showDeleteDialog);
+    console.log("selectedCharacter changed:", selectedCharacter);
+  }, [showDeleteDialog, selectedCharacter]);
+
+  // Reset to first page when search changes
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [searchTerm, searchType]);
+
+  // Filter characters based on search
+  const filteredCharacters = characters.filter((character) => {
+    if (!searchTerm.trim()) return true;
+
+    const searchLower = searchTerm.toLowerCase();
+    if (searchType === "character") {
+      return character.name.toLowerCase().includes(searchLower);
+    } else {
+      return character.anime.toLowerCase().includes(searchLower);
+    }
+  });
+
+  // Get current characters for pagination
+  const indexOfLastCharacter = currentPage * charactersPerPage;
+  const indexOfFirstCharacter = indexOfLastCharacter - charactersPerPage;
+  const currentCharacters = filteredCharacters.slice(
+    indexOfFirstCharacter,
+    indexOfLastCharacter
+  );
+
+  // Calculate total pages
+  const totalPages = Math.ceil(filteredCharacters.length / charactersPerPage);
+
+  // Pagination functions
+  const goToPage = (pageNumber) => {
+    setCurrentPage(pageNumber);
+    // Scroll to top when changing pages
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  const goToPreviousPage = () => {
+    if (currentPage > 1) {
+      goToPage(currentPage - 1);
+    }
+  };
+
+  const goToNextPage = () => {
+    if (currentPage < totalPages) {
+      goToPage(currentPage + 1);
+    }
+  };
 
   // Function to fetch all characters from the API
   const fetchCharacters = async () => {
     try {
       setLoading(true);
       setError("");
+
+      debugLog("Fetching characters...", {
+        token: token ? "Present" : "Missing",
+        API_BASE_URL,
+      });
 
       if (!token) {
         throw new Error("No authentication token found. Please login again.");
@@ -59,6 +127,11 @@ const CharacterManagement = () => {
           Authorization: `Bearer ${token}`,
           "Content-Type": "application/json",
         },
+      });
+
+      debugLog("Fetch characters response", {
+        status: response.status,
+        ok: response.ok,
       });
 
       if (!response.ok) {
@@ -82,6 +155,8 @@ const CharacterManagement = () => {
 
   // Function to add characters from anime
   const handleAddCharacters = async () => {
+    console.log("handleAddCharacters called!"); // Debug log
+    debugLog("Add characters button clicked", { animeId });
     // Validate anime ID
     if (!animeId.trim()) {
       setAnimeIdError("Please enter an anime ID");
@@ -100,6 +175,11 @@ const CharacterManagement = () => {
       setError("");
       setSuccessMessage("");
 
+      debugLog("Making POST request to add characters", {
+        url: `${API_BASE_URL}/Admin/characters/${animeId}`,
+        token: token ? "Present" : "Missing",
+      });
+
       const response = await fetch(
         `${API_BASE_URL}/Admin/characters/${animeId}`,
         {
@@ -110,6 +190,11 @@ const CharacterManagement = () => {
           },
         }
       );
+
+      debugLog("Add characters response", {
+        status: response.status,
+        ok: response.ok,
+      });
 
       if (!response.ok) {
         const errorText = await response.text();
@@ -151,16 +236,32 @@ const CharacterManagement = () => {
 
   // Function to initiate character deletion
   const handleDeleteCharacter = (character) => {
+    console.log("=== DELETE CHARACTER CLICKED ===");
+    console.log("Character passed:", character);
+    console.log("Current selectedCharacter before:", selectedCharacter);
+    console.log("Current showDeleteDialog before:", showDeleteDialog);
+
+    debugLog("Delete character button clicked", character);
     setSelectedCharacter(character);
     setShowDeleteDialog(true);
+
+    console.log("After setState calls - this should show dialog");
   };
 
   // Function to confirm character deletion
   const confirmDeleteCharacter = async () => {
+    console.log("=== CONFIRM DELETE CLICKED ===");
+    console.log("Selected character:", selectedCharacter);
+    debugLog("Confirm delete character", selectedCharacter);
+
     try {
       setDeletingCharacterId(selectedCharacter.id);
       setError("");
       setSuccessMessage("");
+      debugLog("Making DELETE request", {
+        url: `${API_BASE_URL}/Admin/characters/${selectedCharacter.id}`,
+        token: token ? "Present" : "Missing",
+      });
 
       const response = await fetch(
         `${API_BASE_URL}/Admin/characters/${selectedCharacter.id}`,
@@ -274,17 +375,56 @@ const CharacterManagement = () => {
           </div>
         )}
 
-        {/* Characters count */}
-        <div className="mb-6">
-          <p className="text-gray-600">
-            Total characters:{" "}
-            <span className="font-semibold">{characters.length}</span>
-          </p>
+        {/* Characters count and search */}
+        <div className="mb-6 space-y-4">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+            <p className="text-gray-600">
+              Total characters:{" "}
+              <span className="font-semibold">{characters.length}</span>
+              {searchTerm && (
+                <>
+                  {" | "}
+                  <span className="text-blue-600">
+                    Showing {filteredCharacters.length} results
+                  </span>
+                </>
+              )}
+            </p>
+
+            {/* Search Controls */}
+            <div className="flex flex-col sm:flex-row gap-2">
+              <div className="flex">
+                <select
+                  value={searchType}
+                  onChange={(e) => setSearchType(e.target.value)}
+                  className="px-3 py-2 border border-gray-300 rounded-l-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-sm"
+                >
+                  <option value="character">Character</option>
+                  <option value="anime">Anime</option>
+                </select>
+                <input
+                  type="text"
+                  placeholder={`Search by ${searchType}...`}
+                  value={searchTerm}
+                  onChange={(e) => setSearchTerm(e.target.value)}
+                  className="px-3 py-2 border border-gray-300 border-l-0 rounded-r-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent flex-1 min-w-[200px] text-sm"
+                />
+              </div>
+              {searchTerm && (
+                <button
+                  onClick={() => setSearchTerm("")}
+                  className="px-3 py-2 bg-gray-100 text-gray-600 rounded-md hover:bg-gray-200 transition-colors text-sm"
+                >
+                  Clear
+                </button>
+              )}
+            </div>
+          </div>
         </div>
 
         {/* Characters grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-          {characters.map((character) => (
+          {currentCharacters.map((character) => (
             <div
               key={character.id}
               className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow"
@@ -351,6 +491,94 @@ const CharacterManagement = () => {
           ))}
         </div>
 
+        {/* Pagination */}
+        {totalPages > 1 && (
+          <div className="mt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div className="text-sm text-gray-600">
+              Showing {indexOfFirstCharacter + 1} to{" "}
+              {Math.min(indexOfLastCharacter, filteredCharacters.length)} of{" "}
+              {filteredCharacters.length} characters
+            </div>
+
+            <div className="flex items-center space-x-2">
+              <button
+                onClick={goToPreviousPage}
+                disabled={currentPage === 1}
+                className="px-3 py-2 text-sm font-medium text-gray-500 bg-white border border-gray-300 rounded-md hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                Previous
+              </button>
+
+              <div className="flex space-x-1">
+                {[...Array(totalPages)].map((_, index) => {
+                  const pageNumber = index + 1;
+                  const isCurrentPage = pageNumber === currentPage;
+
+                  // Show first page, last page, current page, and pages around current page
+                  const showPage =
+                    pageNumber === 1 ||
+                    pageNumber === totalPages ||
+                    (pageNumber >= currentPage - 1 &&
+                      pageNumber <= currentPage + 1);
+
+                  if (!showPage) {
+                    // Show ellipsis
+                    if (
+                      pageNumber === currentPage - 2 ||
+                      pageNumber === currentPage + 2
+                    ) {
+                      return (
+                        <span
+                          key={pageNumber}
+                          className="px-3 py-2 text-sm text-gray-500"
+                        >
+                          ...
+                        </span>
+                      );
+                    }
+                    return null;
+                  }
+
+                  return (
+                    <button
+                      key={pageNumber}
+                      onClick={() => goToPage(pageNumber)}
+                      className={`px-3 py-2 text-sm font-medium rounded-md ${
+                        isCurrentPage
+                          ? "bg-blue-600 text-white"
+                          : "text-gray-700 bg-white border border-gray-300 hover:bg-gray-50"
+                      }`}
+                    >
+                      {pageNumber}
+                    </button>
+                  );
+                })}
+              </div>
+
+              <button
+                onClick={goToNextPage}
+                disabled={currentPage === totalPages}
+                className="px-3 py-2 text-sm font-medium text-gray-500 bg-white border border-gray-300 rounded-md hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                Next
+              </button>
+            </div>
+          </div>
+        )}
+
+        {/* Show message if no characters found */}
+        {filteredCharacters.length === 0 && characters.length > 0 && (
+          <div className="text-center py-12">
+            <div className="text-gray-400 text-6xl mb-4">🔍</div>
+            <p className="text-gray-500 text-lg">
+              No characters found for "{searchTerm}"
+            </p>
+            <p className="text-gray-400 text-sm mt-2">
+              Try adjusting your search terms or search type.
+            </p>
+          </div>
+        )}
+
         {/* Show message if no characters found */}
         {characters.length === 0 && (
           <div className="text-center py-12">
@@ -360,6 +588,14 @@ const CharacterManagement = () => {
               Add some characters from anime to get started!
             </p>
           </div>
+        )}
+
+        {/* Debug info */}
+        {console.log(
+          "Render check - showDeleteDialog:",
+          showDeleteDialog,
+          "selectedCharacter:",
+          selectedCharacter
         )}
 
         {/* Add Characters Dialog */}
@@ -426,8 +662,9 @@ const CharacterManagement = () => {
 
         {/* Delete Confirmation Dialog */}
         {showDeleteDialog && (
-          <div className="fixed inset-0 bg-black bg-opacity-50 overflow-y-auto h-full w-full z-50 flex items-center justify-center">
-            <div className="relative mx-auto p-6 border max-w-md w-full mx-4 shadow-xl rounded-lg bg-white">
+          <div className="fixed inset-0 bg-black bg-opacity-50 overflow-y-auto h-full w-full z-50 flex items-center justify-center p-4">
+            {console.log("Delete dialog is rendering!")}
+            <div className="relative mx-auto p-6 border max-w-md w-full shadow-xl rounded-lg bg-white">
               <div className="text-center">
                 <div className="mx-auto flex items-center justify-center h-12 w-12 rounded-full bg-red-100 mb-4">
                   <svg

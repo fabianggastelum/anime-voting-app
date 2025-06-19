@@ -32,23 +32,9 @@ function App() {
               <Route path="/register" element={<Register />} />
 
               {/* Protected Routes */}
-              <Route
-                path="/vote"
-                element={
-                  <ProtectedRoute>
-                    <VotingPair />
-                  </ProtectedRoute>
-                }
-              />
+              <Route path="/vote" element={<VotingPair />} />
 
-              <Route
-                path="/leaderboard"
-                element={
-                  <ProtectedRoute>
-                    <Leaderboard />
-                  </ProtectedRoute>
-                }
-              />
+              <Route path="/leaderboard" element={<Leaderboard />} />
 
               {/* Default redirect */}
               <Route path="/" element={<Navigate to="/vote" replace />} />
